@@ -23,7 +23,7 @@ function App() {
   }
 
   return (
-    <Router>
+    <Router basename="/linkedin-tracker">
       <Routes>
         <Route
           path="/login"
